@@ -1,11 +1,4 @@
-```bash
-# ૧. v1 is latest tag
-sudo docker tag bhaveshseepossible/yt-downloader:v1 bhaveshseepossible/yt-downloader:latest
 
-# ૨. Push latest tag on Docker Hub  
-sudo docker push bhaveshseepossible/yt-downloader:latest
-
-```
 
 # 🎵 YouTube MP3 Downloader (Dockerized)
 
@@ -67,4 +60,12 @@ docker run -it --rm -v $(pwd):/app yt-downloader
 
 Docker Image: [bhaveshseepossible/yt-downloader](https://www.google.com/search?q=https://hub.docker.com/r/bhaveshseepossible/yt-downloader)
 
+```bash
+# 1. v1 is latest tag
+sudo docker tag bhaveshseepossible/yt-downloader:v1 bhaveshseepossible/yt-downloader:latest
+
+# 2. Push latest tag on Docker Hub  
+sudo docker push bhaveshseepossible/yt-downloader:latest
+
 ```
+

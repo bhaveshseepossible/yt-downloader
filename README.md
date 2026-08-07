@@ -29,7 +29,7 @@ If you want to clone this repository and build the Docker image locally:
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/bhaveshseepossible/yt-downloader.git](https://github.com/bhaveshseepossible/yt-downloader.git)
+git clone https://github.com/bhaveshseepossible/yt-downloader.git
 cd yt-downloader
 
 # 2. Build the Docker image
